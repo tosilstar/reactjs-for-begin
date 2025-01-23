@@ -2,6 +2,7 @@
 import Movie from '../components/Movie';
 import React from "react";
 import logo from '../logo.svg';
+import styles from "./Home.module.css";
 
 function Home() {
 
@@ -23,9 +24,8 @@ function Home() {
     }, 500);
     }, []);
     
-    console.log(movies);
     return (
-        <div className="App">
+        <div className={styles.container}>
         { loading ? 
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -33,14 +33,14 @@ function Home() {
           <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" > Learn React</a>
         </header> : null
         } 
-        <main>
+        <main className={styles.movies}>
           <h1>Movie List ({moviesCount})</h1>
-          <ul>
+          <div>
               { movies.map((movie) => (
                   <Movie id={movie.id} title={movie.title} image={movie.medium_cover_image} summary={movie.summary} genres={movie.genres} />
                 ))
               }
-           </ul>
+           </div>
         </main>
       </div>
   );
