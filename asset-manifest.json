@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://tosilstar.github.io/reactjs-for-begin/static/css/main.6f30021c.css",
-    "main.js": "https://tosilstar.github.io/reactjs-for-begin/static/js/main.1ca0dd1b.js",
+    "main.js": "https://tosilstar.github.io/reactjs-for-begin/static/js/main.9c81c340.js",
     "static/media/logo.svg": "https://tosilstar.github.io/reactjs-for-begin/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "https://tosilstar.github.io/reactjs-for-begin/index.html",
     "main.6f30021c.css.map": "https://tosilstar.github.io/reactjs-for-begin/static/css/main.6f30021c.css.map",
-    "main.1ca0dd1b.js.map": "https://tosilstar.github.io/reactjs-for-begin/static/js/main.1ca0dd1b.js.map"
+    "main.9c81c340.js.map": "https://tosilstar.github.io/reactjs-for-begin/static/js/main.9c81c340.js.map"
   },
   "entrypoints": [
     "static/css/main.6f30021c.css",
-    "static/js/main.1ca0dd1b.js"
+    "static/js/main.9c81c340.js"
   ]
 }
